@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: digest-spring-boot-starter
+digest:
+  type: sha

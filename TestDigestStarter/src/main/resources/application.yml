@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+digest:
+  type: sha
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+digest:
+  type: sha
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+digest:
+  type: md5
